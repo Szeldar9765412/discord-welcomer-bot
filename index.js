@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const keep_akive = require('./keep_alive.js')
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_INVITES"] });
 const config = require('./config.json');
 const { MessageActionRow, MessageButton } = require('discord.js');
